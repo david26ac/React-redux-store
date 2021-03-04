@@ -1,0 +1,56 @@
+//Colores
+$negro : #232528;
+$blanco : #EAF6FF;
+$amarillo : #FFA400;
+$azul_claro : #009FFD;
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lato&display=swap');
+
+.carrito{
+    padding: 25px 0;
+}
+.cont_producto_shop{
+    display: flex;
+    height: 320px;
+    margin-bottom: 15px;
+    .img_shop{
+        display: block;
+        width: 300px;
+        height: 100%;
+        overflow: hidden;
+        img{
+            width: auto;
+            height: 100%;
+        }
+    }
+    .collection .collection-item{
+        text-align: left;
+    }
+    .collection{
+        margin: 0;
+        width: 100%;
+    }
+    .datos{
+        font-weight: bold;
+        margin-right: 5px;
+    }
+    select{
+        display: block;
+    }
+    .cont_button{
+        display: flex;
+        button{
+            width: 150px;
+            padding: 15px;
+            border: none;
+            display: block;
+            margin-top: 15px;
+            background-color: $amarillo;
+        }
+        .cancelar{
+            background-color: $negro;
+            color: $blanco;
+            margin-left: 15px;
+        }
+    }
+
+}

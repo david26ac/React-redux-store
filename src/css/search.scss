@@ -1,0 +1,29 @@
+//Colores
+$negro : #232528;
+$blanco : #EAF6FF;
+$amarillo : #FFA400;
+$azul_claro : #009FFD;
+
+.busqueda{
+    margin: 25px 0;
+    .row{
+        margin-bottom: 0;
+    }
+    input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+        border-bottom: 1px solid #ffa500;
+        box-shadow: 0 1px 0 0 #ffa500;
+    }
+    button{
+        background-color: $amarillo;
+        margin-bottom: 15px;
+        width: 150px;
+        margin-left: 15px;
+    }
+    button:hover{
+        background-color: $negro;
+    }
+    .cont_search{
+        display: flex;
+        flex-direction: column;
+    }
+}

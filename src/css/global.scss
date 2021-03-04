@@ -1,0 +1,21 @@
+//Colores
+$negro : #232528;
+$blanco : #EAF6FF;
+$amarillo : #FFA400;
+$azul_claro : #009FFD;
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lato&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+.borde{
+    border: 1px solid #e9eaea;
+}
+.screen_black{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    background: rgb(35,37,40);
+    background: linear-gradient(0deg, rgba(35,37,40,1) 11%, rgba(35,37,40,0) 76%);
+}

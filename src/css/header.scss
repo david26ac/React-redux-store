@@ -1,0 +1,53 @@
+$negro : #232528;
+$blanco : #EAF6FF;
+$amarillo : #FFA400;
+$azul_claro : #009FFD;
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lato&display=swap');
+
+nav {
+    background-color: $negro;
+    .brand-logo{
+        left: 25px;
+        font-family: 'Fjalla One', sans-serif;
+        span{
+            color: $amarillo;
+        }
+    }
+    .dropdown-content li>a, .dropdown-content li>span{
+        color: $negro;
+        background-color: $amarillo;
+    }
+    .dropdown-content li>a:hover{
+        color: $blanco;
+        background-color: $negro;
+    }
+    .cont_icon{
+        position: relative;
+        span{
+            color: #EAF6FF;
+            position: absolute;
+            top: 5px;
+            left: 13px;
+            border-radius: 50%;
+            width: 25px;
+            height: 25px;
+            padding: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.8em;
+            line-height: 2.4em;
+            font-weight: bold;
+            z-index: 2;
+            background-color: #FFA400;
+        }
+    }
+    .icon_store{
+        margin-top: 3px;
+        color: $amarillo;
+    }
+    a{
+        font-family: 'Lato', sans-serif;
+        
+    }
+}

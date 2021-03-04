@@ -1,0 +1,16 @@
+//Colores
+$negro : #232528;
+$blanco : #EAF6FF;
+$amarillo : #FFA400;
+$azul_claro : #009FFD;
+
+.banner{
+    width: 100%;
+    position: relative;
+    background-color: $negro;
+    height: 300px;
+    background-image: url(../img/thor.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position-y: -60px;
+}

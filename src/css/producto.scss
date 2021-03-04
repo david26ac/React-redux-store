@@ -1,0 +1,109 @@
+//Colores
+$negro : #232528;
+$blanco : #EAF6FF;
+$amarillo : #FFA400;
+$azul_claro : #009FFD;
+
+//Producto
+*{
+    box-sizing: border-box;
+}
+.productos{
+    .row{
+        margin-bottom: 0;
+    }
+}
+.cont_producto{
+    width: 100%;
+    background-color: $negro;
+    overflow: hidden;
+    margin-bottom: 15px;
+    .foto_producto{
+        background-color: whitesmoke;
+        height: 250px;
+        position: relative;
+        overflow: hidden;
+        .screen_black{
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 50%;
+            background: rgb(35,37,40);
+            background: linear-gradient(0deg, rgba(35,37,40,1) 11%, rgba(35,37,40,0) 76%);
+        }
+        img{
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            display: block;
+        }
+    }
+    .type{
+        text-transform: uppercase;
+        color: $azul_claro;
+    }
+    .cont_description{
+        padding: 15px;
+        text-align: left;
+        .titulo_movie{
+            font-size: 2em;
+            margin: 0;
+            color: $amarillo;
+            font-family: 'Fjalla One', sans-serif;
+        }
+        .description{
+            color: #EAF6FF;
+            font-size: 0.9em;
+            padding-bottom: 15px;
+            border-bottom: 1px solid $blanco;
+            margin: 0 0 15px;
+            font-family: 'Lato', sans-serif;
+
+        }
+        .precio{
+            color: $azul_claro;
+            p{
+                margin: 0;
+                color: $blanco;
+            }
+            .cifra_precio{
+                display: block;
+                font-weight: bold;
+                font-size: 2.5em;
+                line-height: 1em;
+                .moneda{
+                    font-size: 0.7em;
+                }
+            }
+        }
+        .boton_comprar{
+            color: $negro;
+            margin: 15px auto 0;
+            width: 100%;
+            padding: 15px 10px;
+            background-color: $amarillo;
+            border: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            transition: 0.2s;
+            border: 2px solid $amarillo !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            span{
+                margin-right: 5px;
+
+            }
+        }
+        .added{
+            background-color: $azul_claro;
+            border: 2px solid $azul_claro !important;
+        }
+        .boton_comprar:hover{
+            background-color: transparent;
+            border: 2px solid $amarillo;
+            color: $amarillo;
+        }
+    }
+
+}
