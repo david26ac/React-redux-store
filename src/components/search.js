@@ -7,7 +7,8 @@ import { connect } from 'react-redux';
 import Banner from './banner'
 //Css
 import '../css/search.scss'
-
+//key
+import key from '../key/key'
 //actions
 import ADD_PELICULA from '../actions/index'
 import ADD_CANTIDAD from '../actions/cantidad'
@@ -27,7 +28,6 @@ class Search extends React.Component{
     }
     componentDidMount(){
 
-
     }
 
     search(e){
@@ -39,7 +39,7 @@ class Search extends React.Component{
             url: 'https://imdb8.p.rapidapi.com/title/auto-complete',
             params: {q: value},
             headers: {
-              'x-rapidapi-key': 'c4cbf914d7msh97d02c7de706d0bp14bd9cjsn60be7efb5634',
+              'x-rapidapi-key': key,
               'x-rapidapi-host': 'imdb8.p.rapidapi.com'
             }
           };
